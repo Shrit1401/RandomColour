@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="btn">
+        <a href="javascript:void(0)" onclick="GenrateRandom()">Genrate Random</a>
+        <a href="javascript:void(0)" onclick="CopyPaste()">Copy Hex Code</a>
+    </div>
+
+    <div class="code">
+        <p>#fffff</p>
+        <textarea id="hex-code"></textarea>
+    </div>
+
+
+    <div class='content'>
+        <div class="alert alert-success alert-white rounded">
+            <button type="button" class="close" data-dismiss="alert" onclick="ClosePop()" aria-hidden="true">×</button>
+            <div class="icon"><i class="fa fa-check"></i></div>
+            <strong>Success!</strong><span class="copyh"></span>
+        </div>
+    </div>
+
+    <div class="copy-right" style="float: left;">
+        &copy;Shrit1401
+    </div>
+
+ <script src="script.js"></script>   
+</body>
+</html>
